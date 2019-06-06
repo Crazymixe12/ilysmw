@@ -1,0 +1,64 @@
+body {
+	background-image: url(image/galaxy2.jpg)
+}
+.header {
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	transition: all .9s easeease-out
+	grid-gap: 10px
+	font-size: 100px;
+}
+p{
+	text-align: center;
+	size: 20px;
+}
+.images{
+	margin: 0 auto;
+	border: 5px pink;
+	color: white;
+	height: 70vh;
+	display: inline;
+	
+	grid-gap: 10px;
+	border-radius: 70px;
+	background: brown;
+	height: 85vh;
+	width: 97;
+	
+
+}
+h1{
+	color: white;
+}
+p{
+	font-size: 30px;
+	color: white;
+}
+li {
+	padding: 100px;
+	background: skyblue;
+	border: 5px pink;
+	color: purple;
+	text-align: center;
+	font-family: Forte;
+	border-radius: 100px;
+	list-style: inline-table;
+	padding: 15px 25px;
+	box-shadow: 0 0  100px black;
+	transition: all .9s ease-out;
+	margin-bottom: 30px;
+}
+li:hover {
+	background: grey;
+	
+}
+a {
+	text-decoration: none;
+}
+.article-right:hover{
+	background-image: url(image/tenor.GIF)
+}

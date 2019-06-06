@@ -1,0 +1,110 @@
+body {
+	background-image: url(image/hart.jpg)
+	
+}
+.header {
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 5px;
+	margin: 10
+	padding: 0;
+	text-align: center;
+	transition: all .9s easeease-out
+	grid-gap: 5px;
+}
+.showcase {
+	height: 120vh;
+	width: 97vw;
+	background-image: url(image/factss.jpg);
+	border: 5px pink;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	margin-bottom: 30px;
+	border-radius: 70px;
+}
+.main-article {
+	margin-bottom: 30px;
+	border: 5px pink;
+	color: white;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 10px;
+	border-radius: 70px;
+	background: #FFC0CB;
+	height: 85vh;
+	width: 97;
+
+}
+.article-left {
+	background: #FFC0CB;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	color: black;
+	font-size: 30;
+	border-radius: 70px;
+	font-family: Arial;
+	grid-gap: 10px;
+}
+.article-right {
+	background: yellowgreen;
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	border-radius: 50px;
+	font-family: Arial;
+	font-size: 22px;
+}
+.image {
+	background-image: url(image/green.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 70px;
+	grid-gap: 10px
+}
+.text {
+	background: yellowgreen;
+	text-align: center;
+	border-radius: 50px;
+	font-size: 25px;
+	background-size: cover;
+	grid-gap: 10px;
+	background-image: url(image/know.GIF)
+}
+.footer {
+	background: yellowgreen;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	border-radius: 70px;
+	border: 5px yellow;
+}
+li {
+	padding: 20px;
+	background: skyblue;
+	border: 5px pink;
+	color: purple;
+	text-align: center;
+	font-family: Forte;
+	border-radius: 100px;
+	padding: 15px 25px;
+	box-shadow: 0 0  100px black;
+	transition: all .9s ease-out;
+	margin-bottom: 30px;
+
+}
+li:hover {
+	background: grey;
+	
+}
+a {
+	text-decoration: none;
+}
+.article-right:hover{
+	background-image: url(image/tenor.GIF);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
